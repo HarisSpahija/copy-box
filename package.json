@@ -1,6 +1,6 @@
 {
   "name": "copy-box",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "prebuild": "rm -rf dist",
     "build": "babel -d dist/ src/",
     "prepublish": "npm run lint && npm run build",
-    "test": "npm run lint; mocha test --compilers js:babel-register"
+    "test": "npm run lint; mocha spec --compilers js:babel-register"
   },
   "author": "",
   "license": "ISC",
@@ -20,10 +20,19 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "eslint-plugin-jsx-control-statements": "^2.1.1",
+    "expect": "^1.20.1",
     "jsx-control-statements": "^3.1.2",
+    "mocha": "^2.4.5",
+    "react": "^15.0.2",
+    "react-addons-test-utils": "^15.0.2",
     "standard": "^7.0.1"
   },
   "standard": {
+    "globals": [
+      "beforeEach",
+      "describe",
+      "it"
+    ],
     "parser": "babel-eslint"
   }
 }
