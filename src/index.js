@@ -1,2 +1,2 @@
-import { default as CopyBox } from './CopyBox'
-export default CopyBox
+export { default as Input } from './Input'
+export { default as copyToClipboard } from './copyToClipboard'
