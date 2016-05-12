@@ -2,6 +2,8 @@
 
 # copy-box
 
+A React component that copies whats in the box.
+
 ### Installation
 `npm i copy-box`
 
