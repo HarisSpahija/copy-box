@@ -1,3 +1,5 @@
+[![devDependency Status](https://david-dm.org/bentatum/copy-box/dev-status.svg)](https://david-dm.org/bentatum/copy-box#info=devDependencies)
+
 # copy-box
 
 ## Installation
