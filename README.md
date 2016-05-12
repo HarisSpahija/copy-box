@@ -43,3 +43,8 @@ const Page = () =>
         </Button>
     </div>
 ```
+
+### Input
+| Prop          | Type                      | Description                                                             |
+| :------------ | :------------------------ | :---------------------------------------------------------------------- |
+| is ('input')  | oneOfType([string, func]) | Replaces the generic html input with a input component of your choosing |
