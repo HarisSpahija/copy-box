@@ -2,10 +2,10 @@
 
 # copy-box
 
-## Installation
+### Installation
 `npm i copy-box`
 
-## Usage
+### Usage
 ```javascript
 import { Input } from 'copy-box'
 const Demo = () => <Input value="Copy this text just by clicking it"/>
